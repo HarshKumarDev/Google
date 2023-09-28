@@ -1,0 +1,228 @@
+
+.container1{
+    color: green;
+    position: relative;
+    display: inline-block;
+    margin-left: 80%;
+    top: 10px;
+}
+.container2{
+   color: red;
+   position: relative;
+   display: inline-block;
+   left: 10px;
+   top: 10px;
+}
+.container3{
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 20px;
+} 
+.container4{
+    position: relative;
+    display: inline-block;
+    left: 30px;
+    top: 10px;
+}
+.but{
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #1A73E8;
+    color: white;
+    cursor: pointer;
+}
+.container5{
+    position: relative;
+    text-align: center;
+    margin: 60px auto auto;
+    width: 50%;
+}
+#search-button{
+    height: 60%;
+}
+#search-button:hover {
+    background-color: #357ae8;
+}
+a{
+    cursor: pointer;
+}
+.search-container{
+    margin-left: 400px;
+    margin-top: 20px;
+    height: 40px;
+    width: 50%;
+    justify-content: center;
+    border:2px solid black;
+    border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ;
+    -ms-border-radius:50px ;
+    -o-border-radius:50px ;
+}
+#search-input{
+    position: relative;
+    right: 50px;
+    border:2px solid white;
+    margin-left: 80px;
+    font-size: 18px;
+    height: 25px;
+    width: 80%;
+    border: 1px solid #ccc; /* Default border style */
+    padding: 5px;
+    outline: none;
+}
+#search-input:focus {
+    border: 1px solid transparent;
+}
+.fa-solid{
+    position: relative;
+    display: inline;
+    left: 10px;
+}
+.voice{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+}
+.voicesearch{
+    position: relative;
+    display:inline-flex;
+    top: 9px;
+    height: 25px;
+    width: 100%;
+    
+}
+/*
+.imagesearch{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+}
+.searchbyimage{
+    position: relative;
+    display: inline;
+    top: 9px;
+    height: 25px;
+    width: 100%;
+    justify-content: space-between;
+}
+*/
+.container6{
+    position: relative;
+    top: 40px;
+    margin-left: 42%;
+}
+#button3
+{
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.button4{
+    padding: 5px 5px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+}
+.last{
+    position: relative;
+    display: inline-flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.lang{
+    margin: 10px 5px; 
+    text-decoration: none;
+    color: #1a0dab;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    margin-top: 130px;
+    background-color: #f2f2f2;
+}
+.country{
+    position: relative;
+    top: 130px;
+    background-color: #f2f2f2;
+    padding:0px 30px;
+     border-color: #357ae8;
+}
+.india{
+    position: relative;
+    top: 10px;
+    color: grey;
+}
+.footerelements{
+    padding: 20px 20px;
+    text-align: left;
+    bottom: 0;
+    display: flex;
+}
+.bottom{
+    color: grey;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.footerelement2{
+    display: flex;
+    padding: 20px 20px;
+    bottom: 0;
+    margin-left: 0px;
+    text-align: right;
+}
+/* Styles for the Google Apps icon */
+#apps-icon {
+    /*    */
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+    top: 5px;
+}
+
+.dot {
+    display: flex;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 1px;
+}
+
+/* Styles for the Apps menu (initially hidden) */
+.apps-menu {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    display: none;
+}
+
+.apps-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.apps-menu li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Add more styling as needed */
